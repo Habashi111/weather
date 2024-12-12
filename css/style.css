@@ -1,0 +1,113 @@
+nav {
+  padding: 0 !important;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.container-fluid {
+  background-color: #1e202b;
+}
+.img-wether {
+  width: 70px;
+}
+
+.outline {
+  border: 1px solid aqua;
+  color: aqua !important;
+}
+.outlines {
+  color: white;
+}
+.outlines:hover {
+  border: 1px solid aqua;
+  color: aqua;
+  transition: all 0.5s;
+}
+
+.seaction-1 {
+  background-image: url(img/img2.png);
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  overflow: hidden;
+}
+.inp1 {
+  margin-top: 50px;
+  background-color: #1e202b;
+
+  height: 50px;
+  border: none;
+}
+.inp1::placeholder {
+  padding: 5px;
+}
+
+.pos {
+  top: 55px;
+  width: 100px;
+  right: 200px;
+}
+.high {
+  height: 50px;
+}
+.secton2 {
+  background-color: #1e202b;
+}
+.degree {
+  font-size: 90px;
+  font-weight: 700;
+  color: white;
+}
+.contry {
+  color: rgb(191, 193, 200);
+}
+.degrees {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.img-weather {
+  width: 90px;
+}
+footer {
+  height: 250px;
+  background-color: #262936;
+}
+
+.icons {
+  margin-top: 100px;
+  text-align: center;
+}
+.icons i {
+  text-align: center;
+
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  margin-left: 20px;
+  cursor: pointer;
+  color: aqua;
+  border-radius: 50%;
+}
+.bg-secondary {
+  background-color: #2d303d !important;
+  color: white !important;
+}
+.bg-info {
+  background-color: #323544 !important ;
+}
+
+@media screen and (max-width: 991px) {
+  .clild-bg {
+    background-color: #262936;
+  }
+  .pos {
+    right: 120px;
+  }
+}
+@media screen and (max-width: 740px) {
+  .pos {
+    right: 50px;
+  }
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand mt-5 mb-5 ms-lg-5 d-flex" href="#">
+          <img src="css/img/img1 (1).png" alt="" class="img-wether" />
+          <div>
+            <h4 class="ms-3 mt-3 text-white">weather</h4>
+            <h6 class="ms-3 text-white">tagline goes here</h6>
+          </div>
+        </a>
+        <button
+          class="navbar-toggler mt-sm-5 mb-sm-5 text-white bg-info"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse clild-bg d-lg-flex justify-content-lg-end"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav text-center mt-5 mb-5">
+            <a class="nav-link me-lg-5 rounded-pill outline" href="#">Home</a>
+            <hr class="bg-info text-info" />
+            <a class="nav-link me-lg-5 rounded-pill outlines" href="#">News</a>
+            <hr class="bg-info text-info" />
+            <a class="nav-link me-lg-5 rounded-pill outlines" href="#"
+              >Live cameras</a
+            >
+            <hr class="bg-info text-info" />
+            <a class="nav-link me-lg-5 rounded-pill outlines" href="#">photo</a>
+            <hr class="bg-info text-info" />
+            <a class="nav-link me-lg-5 rounded-pill outlines" href="#"
+              >contact</a
+            >
+            <hr class="bg-info text-info" />
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section class="seaction-1">
+      <div class="text-center position-relative high">
+        <input
+          type="text"
+          class="rounded-pill inp1 w-75 text-white"
+          placeholder="find yours location..."
+          id="find-weather"
+          oninput="call()"
+        />
+      </div>
+    </section>
+    <section class="secton2">
+      <div class="container">
+        <div class="row d-flex g-3 justify-content-center" id="sec2"></div>
+      </div>
+    </section>
+
+    <footer class="">
+      <div class="container">
+        <div class="row">
+          <div class="text-center position-relative high">
+            <input
+              type="text"
+              class="rounded-pill inp1 w-75 text-white"
+              placeholder="Enter your Email to subscribe..."
+            />
+            <button class="position-absolute pos rounded-pill btn btn-info">
+              subscribe
+            </button>
+          </div>
+          <div class="icons d-flex justify-content-center">
+            <div>
+              <i class="fa-brands fa-facebook"></i>
+            </div>
+
+            <div class="first">
+              <i class="fa-brands fa-instagram first-i"></i>
+            </div>
+
+            <div>
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+
+            <div>
+              <i class="fa-brands fa-linkedin"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="bootstrap.bundle.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
