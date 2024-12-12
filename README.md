@@ -22,3 +22,5 @@ HTML: For structuring the application.
 CSS: For styling elements and creating a visually appealing interface.
 Bootstrap: For responsive design and layout.
 JavaScript: For fetching API data and dynamically updating the UI.
+# view website
+https://habashi111.github.io/weather/
